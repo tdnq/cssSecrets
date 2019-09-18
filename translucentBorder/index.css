@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(86, 74, 192)
+}
+.box{
+    /* 150px */
+    width: 200px;
+    /* 200px */
+    height: 200px;
+    background-color: white;
+    /* border:10px solid hsla(0,0%,100%,0.5); */
+    border:10px solid rgba(200,200,200, 0.5);
+    background-clip: padding-box;
+    margin: auto;
+}
+
+/* 盒子的宽/高度的百分比是父盒子的宽/高的比；外边距和和内边距都是父盒子宽的比； */
+/* 不用background-clip:padding-box实色下无影响，透明色下会混合不会显示出预想的颜色 */

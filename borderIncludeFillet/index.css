@@ -1,0 +1,19 @@
+:root{
+    --borderColor:rgb(160, 31, 31);
+}
+.borderIncludeFillet,.borderFilled{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(82, 132, 179);
+    display: inline-block;
+    margin: 2rem;
+}
+.borderIncludeFillet{
+    border-radius: 0.2em;
+    outline: var(--borderColor) solid 5px;
+    box-shadow: 0px 0px 0px 0.0828em var(--borderColor);
+}
+.borderFilled{
+    border-radius: 0.2em;
+    box-shadow: 0px 0px 0px 5px var(--borderColor);
+}
