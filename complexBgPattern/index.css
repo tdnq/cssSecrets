@@ -1,0 +1,30 @@
+.complexBgPattern,.complexBgPatternOther,.complexBgPatternCharm{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    margin: 1rem;
+}
+.complexBgPattern{
+    background-image: 
+        linear-gradient(to right,#8c6b6b73 50%,transparent 0), 
+        linear-gradient(#6d55c3 50%,#b3acac 0);
+    background-size: 30px 30px;
+}
+.complexBgPatternOther{
+    background-color: rgb(116, 132, 204);
+    background-image: radial-gradient(#d2b48c8a 80%,transparent 0),
+                      linear-gradient(45deg,#ada8dcc4 50%, transparent 0);
+    background-size: 30px 30px;
+}
+.complexBgPatternCharm{
+    background-color: #eee;
+    background-image: 
+        linear-gradient(45deg,
+        rgba(0,0,0,.25) 25%, transparent 0,
+        transparent 75%, rgba(0,0,0,.25) 0),
+        linear-gradient(45deg,
+        rgba(0,0,0,.25) 25%, transparent 0,
+        transparent 75%, rgba(0,0,0,.25) 0);
+    background-position: 0 0, 30px 30px;
+    background-size: 60px 60px;
+}
