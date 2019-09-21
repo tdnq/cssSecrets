@@ -1,0 +1,16 @@
+.demoBox{
+    width: 600px;
+    height: 300px;
+    background-image: 
+                    linear-gradient(to right,
+                                    rgb(150, 140, 194) 15px, 
+                                    transparent 0
+                                    ),
+                    linear-gradient(to right,
+                                    rgb(166, 190, 78) 30px, 
+                                    transparent 0),
+                    linear-gradient(to right,
+                                    rgb(177, 104, 171) 50px, 
+                                    transparent 0);
+    background-size: 30px 100%,41px 100%,61px 100%;
+}
