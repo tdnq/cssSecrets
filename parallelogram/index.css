@@ -1,0 +1,27 @@
+.demo{
+    transform: skewX(45deg);
+    background-color: red;
+    display: inline-block;
+    margin: 2rem;
+}
+.demo>span{
+    padding: 1rem 2rem;
+    transform: skewX(-45deg);
+    display: inline-block;
+}
+.demoOther{
+    padding: 1rem 2rem;
+    position: relative;
+    margin:2rem;
+}
+.demoOther::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: blue;
+    z-index: -1;
+    transform: skewX(-45deg);
+}
