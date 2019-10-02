@@ -1,0 +1,37 @@
+.demo{
+    margin: 2rem;
+    padding: 2rem;
+    background: rgb(122, 134, 201);
+    display: inline-block;
+    background: linear-gradient(-45deg,transparent 15px,rgb(122, 134, 201) 0);
+
+}
+.demoTwo{
+    margin: 2rem;
+    padding: 2rem;
+    background: rgb(122, 134, 201);
+    display: inline-block;
+    background: 
+        linear-gradient(-45deg,transparent 15px,rgb(122, 134, 201) 0) ,
+        linear-gradient(45deg,transparent 15px,rgb(122, 134, 201) 0) ,
+        linear-gradient(135deg,transparent 15px,rgb(122, 134, 201) 0) ,
+        linear-gradient(-135deg,transparent 15px,rgb(122, 134, 201) 0);
+    background-position: bottom right,bottom left,top left,top right;
+    background-size: 55% 55%;
+    background-repeat: no-repeat;
+
+}
+.demoCircle{
+    margin: 2rem;
+    padding: 2rem;
+    background: rgb(122, 134, 201);
+    display: inline-block;
+    background: 
+       radial-gradient(circle at bottom right,transparent 15px,rgb(122, 134, 201) 0) ,
+       radial-gradient(circle at bottom left,transparent 15px,rgb(122, 134, 201) 0) ,
+       radial-gradient(circle at top left,transparent 15px,rgb(122, 134, 201) 0) ,
+       radial-gradient(circle at top right,transparent 15px,rgb(122, 134, 201) 0) ;
+    background-position: bottom right,bottom left,top left,top right;
+    background-size: 55% 55%;
+    background-repeat: no-repeat;
+}

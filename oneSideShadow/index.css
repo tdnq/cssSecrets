@@ -1,0 +1,15 @@
+.demo{
+    padding: 2rem;
+    background-color: red;
+    display: inline-block;
+    box-shadow: 3px 0px 2px -2px  black;
+    margin: 2rem;
+}
+.demoTwo{
+    padding: 2rem;
+    margin: 2rem;
+    background-color: red;
+    display: inline-block;
+    box-shadow: 3px 0px 2px -2px  black,
+                -3px 0px 2px -2px black;
+}

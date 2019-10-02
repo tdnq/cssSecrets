@@ -1,0 +1,47 @@
+/* figure{
+    width: 50%;
+    background-image: url("../images/demo.jpg");
+    background-size: cover;
+    word-wrap: break-word;
+    padding: 50px;
+    background-attachment: fixed;
+}
+figcaption{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+    background-color: hsla(0,0%,100%,.3);
+}
+figcaption::before{
+    content: "";
+    top:0; bottom: 0;right: 0; left: 0;
+    position: absolute;
+    z-index: -1;
+    filter: blur(20px);
+} */
+
+figure{
+    height: 400px;
+    display: flex;
+}
+figure, figcaption::before {
+    background: url("../images/demo.jpg") 0 / cover fixed;
+    }
+    figcaption {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    background: hsla(0,0%,100%,.3);
+    overflow: hidden;
+    z-index: 1;
+    padding: 30px;
+    }
+    figcaption::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    filter: blur(20px);
+    margin: -30px;
+    z-index: -1;
+    }

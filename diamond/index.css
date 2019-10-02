@@ -1,0 +1,17 @@
+.demo{
+    display: inline-block;
+    margin: 3rem;
+    width: 200px;
+    height: 200px;
+    transform: rotate(45deg);
+    overflow: hidden;
+}
+.demo>img{
+    max-width: 100%;
+    transform: rotate(-45deg) scale(1.7);
+    
+}
+.cilp-demo{
+    clip-path: polygon(50% 0,100% 50%,50% 100%,0 50%);
+    width: 200px;
+}
