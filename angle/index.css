@@ -1,0 +1,33 @@
+.demo{
+    width: 400px;
+    height: 200px;
+    background:rgb(127, 119, 175);
+    margin: 2rem;
+    background: 
+        linear-gradient(-135deg,transparent 50%,red 0),
+        linear-gradient(-135deg,transparent 2em,rgb(127, 119, 175) 0);
+    background-position: top right;
+    background-size: 2.82em 2.82em,100% 100%;
+    background-repeat: no-repeat;
+}
+
+.demoTwo{
+    width: 200px;
+    height: 200px;
+    background:rgb(127, 119, 175);
+    background: linear-gradient(-150deg, transparent 2em, rgb(127,199,175) 0);
+    margin: 2rem;
+    position: relative;
+}
+.demoTwo::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 4em;
+    width: 2.309em;
+    background:linear-gradient(to left bottom, transparent 50%, rgb(65, 33, 141) 0);
+    transform-origin: bottom right;
+    transform: translateY(-1.691em) rotate(-30deg) ;
+    border-bottom-left-radius: 5px;
+}
